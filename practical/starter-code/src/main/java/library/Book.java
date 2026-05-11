@@ -17,6 +17,8 @@ public class Book extends LibraryItem {
     //   Use super(...) to pass the correct arguments to LibraryItem.
     public Book(String title, String isbn, int year, String author, int pages) {
         super(title, isbn, year);
+        this.author = author;
+        this.pages = pages;
     }
 
 
