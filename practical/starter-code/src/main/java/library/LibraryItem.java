@@ -89,10 +89,5 @@ public class LibraryItem {
     }
 
 
-    public void checkOut() {
-    }
 
-    public boolean isCheckedOut() {
-        return false;
-    }
 }

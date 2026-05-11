@@ -15,8 +15,8 @@ public class Book extends LibraryItem {
 
     // TODO: Constructor — Book(String title, String isbn, int year, String author, int pages)
     //   Use super(...) to pass the correct arguments to LibraryItem.
-    public Book(String title, String isbn, int year, String author, int pages){
-        super(title,isbn,year);
+    public Book(String title, String isbn, int year, String author, int pages) {
+        super(title, isbn, year);
         this.pages = pages;
         this.author = author;
     }
@@ -38,10 +38,7 @@ public class Book extends LibraryItem {
 
     @Override
     public String getSummary() {
-        return getTitle()+getYear()+"by"+author+"' "+pages+ "- ISBN: "+getIsbn();
+        return getTitle() + getYear() + "by" + author + "' " + pages + "- ISBN: " + getIsbn();
     }
 
-    public boolean isCheckedOut() {
-        return false;
-    }
 }
