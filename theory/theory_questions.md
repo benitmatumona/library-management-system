@@ -1,8 +1,8 @@
 # Theory Questions — Mock Assessment 2
 **WeThinkCode_ | Java OOP | 40 Marks**
 
-**Candidate Name:** ___________________________
-**Date:** ___________________________
+**Candidate Name:** _____Ceby______________________
+**Date:** __11 May 2026_________________________
 
 ---
 
@@ -17,7 +17,7 @@
 - C) `-` before the field name
 - D) `~` before the field name
 
----
+---C-
 
 **2.** Which Java keyword prevents a method from being overridden in a subclass?
 
@@ -26,7 +26,7 @@
 - C) `final`
 - D) `abstract`
 
----
+-C--
 
 **3.** When a subclass constructor calls `super(name, value)`, it is:
 
@@ -35,7 +35,7 @@
 - C) Overriding the superclass constructor
 - D) Copying all fields from the superclass
 
----
+-B--
 
 **4.** Which of the following best describes polymorphism?
 
@@ -44,7 +44,7 @@
 - C) A field being accessible from multiple classes
 - D) A method returning different data types
 
----
+--D-
 
 **5.** In JUnit 5, `assertThrows(IllegalArgumentException.class, () -> obj.setAge(-1))` will:
 
@@ -53,7 +53,7 @@
 - C) Always pass regardless of what happens
 - D) Fail to compile because lambdas are not allowed in tests
 
----
+-B--
 
 **6.** What does the open arrowhead (hollow triangle) on an inheritance arrow in UML point toward?
 
@@ -62,7 +62,7 @@
 - C) The superclass (parent)
 - D) The most recently created class
 
----
+--B-
 
 **7.** Which of the following is a correct way to override `toString()` in Java?
 
@@ -71,7 +71,7 @@
 - C) `static String toString() { return "..."; }`
 - D) `protected void toString() { System.out.println("..."); }`
 
----
+-A--
 
 **8.** What is the result of calling `super.describe()` inside an overriding `describe()` method?
 
@@ -80,7 +80,7 @@
 - C) The output of the parent class's `describe()` method
 - D) The method is ignored
 
----
+--C-
 
 **9.** Which JUnit 5 assertion would you use to check that a boolean condition is true?
 
@@ -89,7 +89,7 @@
 - C) `assertTrue(condition)`
 - D) `assertValid(condition)`
 
----
+--A-
 
 **10.** In UML, a dashed line with an open arrowhead typically represents:
 
@@ -98,7 +98,7 @@
 - C) Dependency / interface implementation
 - D) Association
 
----
+--D-
 
 ## Section B: Short Answer (10 marks — 2 marks each)
 
