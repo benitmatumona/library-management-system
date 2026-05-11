@@ -7,17 +7,24 @@ package library;
  */
 public class Librarian {
 
-    // TODO: Declare private fields: name (String), staffId (String)
+    private String name;
+    private String staffId;
 
+    public Librarian(String name, String staffId){
+        this.name = name;
+        this.staffId = staffId;
+    }
 
-    // TODO: Constructor — Librarian(String name, String staffId)
+    public String getName() {
+        return name;
+    }
 
+    public String getStaffId() {
+        return staffId;
+    }
 
-    // TODO: Getters — getName(), getStaffId()
-
-
-    // TODO: issueItem(LibraryItem item) : String
-    //   1. Calls item.checkOut()
-    //   2. Returns: "[name] issued: [item.getSummary()]"
-
+    public String issueItem(LibraryItem item){
+        item.checkOut();
+        return name + " issued: " + item.getSummary();
+    }
 }
