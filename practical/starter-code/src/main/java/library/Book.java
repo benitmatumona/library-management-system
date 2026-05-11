@@ -9,17 +9,39 @@ package library;
 public class Book extends LibraryItem {
 
     // TODO: Declare private fields: author (String), pages (int)
+    private String author;
+    private int pages;
 
 
     // TODO: Constructor — Book(String title, String isbn, int year, String author, int pages)
     //   Use super(...) to pass the correct arguments to LibraryItem.
+    public Book(String title, String isbn, int year, String author, int pages){
+        super(title,isbn,year);
+        this.pages = pages;
+        this.author = author;
+    }
 
 
     // TODO: Getters — getAuthor(), getPages()
 
+    public int getPages() {
+        return pages;
+    }
 
+    public String getAuthor() {
+        return author;
+    }
     // TODO: @Override getSummary()
     //   Returns: "[title] ([year]) by [author], [pages] pages — ISBN: [isbn]"
     //   Use the inherited getters to access LibraryItem fields.
 
+
+    @Override
+    public String getSummary() {
+        return getTitle()+getYear()+"by"+author+"' "+pages+ "- ISBN: "+getIsbn();
+    }
+
+    public boolean isCheckedOut() {
+        return false;
+    }
 }
