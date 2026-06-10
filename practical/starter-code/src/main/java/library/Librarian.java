@@ -34,7 +34,7 @@ public class Librarian {
     //   2. Returns: "[name] issued: [item.getSummary()]"
     public String issueItem(LibraryItem item) {
         item.checkOut();
-        return getName() + " issued :" +  item.getSummary() ;
+        return getName() + " issued: " +  item.getSummary() ;
 
     }
 
